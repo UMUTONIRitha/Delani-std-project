@@ -1,0 +1,11 @@
+#welcome{
+    background-image: url(img/assets/backgrounds/h_img.jpg);
+    
+}
+.wel{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding: 25px;
+   font-size: 30px;
+}
