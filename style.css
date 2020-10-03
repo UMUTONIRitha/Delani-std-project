@@ -16,3 +16,9 @@
 .jumbotron{
     background-color: transparent;
 }
+#service{
+    text-align: center;
+    background-image: url(img/assets/backgrounds/s_image.jpg);
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
