@@ -60,7 +60,7 @@ footer{
       color: white;
       text-align: center;
   }
-  .form-control{
+  .form-control::-webkit-input-placeholder{
       color: white;
   }
   #name,#anyemail,#textarea{
@@ -89,3 +89,4 @@ footer{
       transform: translateY(-50px);
     }
   }
+  
