@@ -15,3 +15,9 @@
 * JavaScript
 * Bootstrap
 * Jquery
+## How Akan Project look
+![Delani studio Project](delani.png)
+## Contact Information
+{feel free to contact me via E-mail: rithamarie9@gmail.com in case you need any support or contribution.}
+### License
+* MIT license,Copyright (c) {2020} **{UMUTONI Marie Ritha}**
