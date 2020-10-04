@@ -1,8 +1,8 @@
-# {Akan Name}
+# {Delani Studio}
 #### {Delani Studio Project}, {4 October 2020}
 #### By **{UMUTONI Marie Ritha}**
 ## Description
-{Delani Studio Project contains welcom page,about us ,services studio can offer,what we do,portfolio and contacts where you can found adelani studio . }
+{Delani Studio Project contains activities of the studio and more information about it like  welcome page,about us ,services studio can offer,what we do,portfolio and contacts where you can found adelani studio . }
 ## Setup/Installation Requirements
 * UBUNTU
 * Open Terminal
