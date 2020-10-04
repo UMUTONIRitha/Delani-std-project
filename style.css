@@ -32,6 +32,7 @@
 }
 #portfolio{
     text-align: center;
+    font-family: 'Abel', sans-serif;
 }
 #contact{
     background-image: url(img/assets/backgrounds/c_image.jpg);
@@ -39,6 +40,7 @@
     background-size: cover;
     color: white;
     margin-top: 15px;
+    font-family: 'Abel', sans-serif;
 }
 footer{
     text-align: center;
@@ -55,7 +57,7 @@ footer{
     text-align: center;
    display: none;
   }
-  input[type="text"],input[type="email"],#textarea{
+  input[type="text"],input[type="email"],#textarea,input[type="submit"]{
       background-color: transparent;
       color: white;
       text-align: center;
