@@ -1,5 +1,7 @@
 #welcome{
     background-image: url(img/assets/backgrounds/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .wel{
@@ -19,6 +21,8 @@
 #service{
     text-align: center;
     background-image: url(img/assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     font-family: 'Abel', sans-serif;
 }
@@ -31,6 +35,8 @@
 }
 #contact{
     background-image: url(img/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     margin-top: 15px;
 }
@@ -41,16 +47,44 @@ footer{
     padding: 10px;
 }
 .col-md-3 img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     margin-bottom: 15px;
   }
   .text{
     text-align: center;
-   
+   display: none;
   }
-  input[type="text"],input[type="email"],#comment{
+  input[type="text"],input[type="email"],#textarea{
       background-color: transparent;
       color: white;
       text-align: center;
+  }
+  .form-control{
+      color: white;
+  }
+  #name,#anyemail,#textarea{
+      margin-left: 15px;
+      margin-bottom: 15px;
+  }
+  #textarea{
+      width: 750px;
+
+  }
+  .wedo{
+      display: none;
+  }
+  .mouse-click {
+    animation: bounce 3s infinite;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
   }
