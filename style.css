@@ -26,3 +26,9 @@
     text-align: center;
     font-family: 'Abel', sans-serif;
 }
+#portfolio{
+    text-align: center;
+}
+#contact{
+    background-image: url(img/assets/backgrounds/c_image.jpg);
+}
