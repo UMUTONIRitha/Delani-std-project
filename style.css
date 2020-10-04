@@ -71,9 +71,10 @@ footer{
       width: 750px;
 
   }
-  .wedo{
+  #wedodesign,#wedodevelopment,#wedoproduct{
       display: none;
   }
+
   .mouse-click {
     animation: bounce 3s infinite;
   }

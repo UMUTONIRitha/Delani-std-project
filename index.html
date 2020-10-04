@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="jquery-3.5.1.js"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/script3.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
@@ -46,9 +48,9 @@
     <div class="row">
         <div class="col">
             <div id="design">
-            <img src="img/assets/services_icons/design_icon.png" alt="design">
+            <img src="img/assets/services_icons/design_icon.png" id="imgdesign" alt="design">
             <p>DESIGN</p>
-            <div class="wedo">
+            <div id="wedodesign">
             <p>Our design practice offers a full range of practice including brand new strategies interaction and visual design and user experience testing.</p>
        <p>throughout your project,our designers create and implement visual design,workflows,solicit user feedback and work with you to make sure what gets build is what is needed</p>
             </div>  
@@ -56,9 +58,9 @@
     </div>
         <div class="col">
             <div id="development">
-            <img src="img/assets/services_icons/dev_icon.png" alt="development">
+            <img src="img/assets/services_icons/dev_icon.png" id="imgdevelopment" alt="development">
             <p>DEVELOPMENT</p>
-            <div class="wedo">
+            <div id="wedodevelopment">
             <p>All engineers are influent in the latest enterprise,mobile and web development technologies</p>
         <p>They collaborate with your team to write and improve code in daily basis,using proven practice such as test driven development and pair programming</p>
             </div>
@@ -66,9 +68,9 @@
     </div>
         <div class="col">
             <div id="product">
-            <img src="img/assets/services_icons/product_icon.png" alt="product">
+            <img src="img/assets/services_icons/product_icon.png" id="imgproduct" alt="product">
             <p>PRODUCT MANAGEMENT</p>
-            <div class="wedo">
+            <div id="wedoproduct">
             <p>Planning and development is iterative.because we are constantly coding and testing,the product we build are always ready to go live.</p>
     <p>this iterative process allows for changes as business requirements evolve.</p>
             </div>
@@ -125,7 +127,9 @@
 <div class="form-group"> 
     <textarea class="form-control" rows="5" id="textarea" placeholder = "Your message here...." ></textarea>
 </div>
+<div class="form-group">
 <button type="submit" class="btn btn-success col-md-1">Submit</button>
+</div>
            </div>
            
        </form>
