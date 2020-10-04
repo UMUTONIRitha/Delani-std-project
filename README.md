@@ -15,8 +15,13 @@
 * JavaScript
 * Bootstrap
 * Jquery
-## How Akan Project look
+## How Delani studio Project look
 ![Delani studio Project](delani.png)
+## BDD
+* Enter  your name
+* Enter your email
+* Add a comment
+* submit
 ## Contact Information
 {feel free to contact me via E-mail: rithamarie9@gmail.com in case you need any support or contribution.}
 ### License
